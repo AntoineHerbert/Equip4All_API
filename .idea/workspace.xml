@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b94fc634-a4ff-458d-996a-a58d96cfce65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_19_143408_create_materials_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_19_143408_create_materials_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +150,7 @@
       <updated>1584625412443</updated>
       <workItem from="1584625415342" duration="6450000" />
       <workItem from="1584633102712" duration="1210000" />
-      <workItem from="1584974808512" duration="2783000" />
+      <workItem from="1584974808512" duration="4318000" />
     </task>
     <servers />
   </component>
