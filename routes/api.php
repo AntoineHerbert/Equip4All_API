@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/getEverybody', 'UserController@getAll');
+Route::get('/getEverySocieties', 'AssociationController@getAll');
+Route::get('/getEverySorts','CategoryController@getAll');
+Route::get('/getEverySubSorts','Sub_categoryController@getAll');
+Route::get('/getEveryStuffs', 'MaterialController@getAll');
+Route::get('/getEveryLending' , 'LoaningController@getAll');
+Route::get('/getSocietyMembers', 'AssociationController@getMembers');
