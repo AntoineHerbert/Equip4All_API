@@ -20,4 +20,5 @@ Route::get('/getEverySorts','CategoryController@getAll');
 Route::get('/getEverySubSorts','Sub_categoryController@getAll');
 Route::get('/getEveryStuffs', 'MaterialController@getAll');
 Route::get('/getEveryLending' , 'LoaningController@getAll');
-Route::get('/getSocietyMembers', 'AssociationController@getMembers');
+Route::get('/get/{Society}/members', 'AssociationController@getMembers');
+Route::get('/get/{Society}/stuffs', 'AssociationController@getStuffs');

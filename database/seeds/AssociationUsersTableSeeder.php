@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class UsersAssociationSeeder extends Seeder
+class AssociationUsersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class UsersAssociationSeeder extends Seeder
     public function run()
     {
         for($i=1;$i<20;$i++) {
-            DB::table('users_association')->insert([
+            DB::table('association_users')->insert([
                 ['user_id' => $i, 'association_id' => $i]
             ]);
         }
