@@ -23,7 +23,23 @@ class AssociationController extends Controller
     public static function getStuffs($associationID)
     {
         $stuffs = Material::all()->where('association_id',$associationID);
-        return var_dump($stuffs);
-        if(empty($stuffs)){return 'aucun materiel disponible';}else{return $stuffs;}
+        if($stuffs->all()==[])
+        {
+            return null;
+        }
+        else
+        {
+            return ($stuffs);
+        }
     }
+    public static function findOneByID($id)
+    {
+        return Association::all()->find($id);
+    }
+
+    public static function getMaterials($associationID){
+        return Material::all()->where('association_id',$associationID);
+    }
+
+
 }

@@ -17,7 +17,7 @@ class CreateLoaningsTable extends Migration
             $table->id();
             $table->date('loaningStart');
             $table->date('loaningPlannedEnd');
-            $table->date('loaningEnd');
+            $table->date('loaningEnd')->nullable();
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('material_id');
             $table->timestamps();
