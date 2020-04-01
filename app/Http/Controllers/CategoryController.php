@@ -34,4 +34,15 @@ class CategoryController extends Controller
         }
         return $materials;
     }
+
+    public static function createOne($request){
+        $cat = new Category();
+        $cat->setAttribute('label',$request['label']);
+        $cat->save();
+    }
+
+    public static function deleteOne($id)
+    {
+        Category::all()->find($id)->delete();
+    }
 }

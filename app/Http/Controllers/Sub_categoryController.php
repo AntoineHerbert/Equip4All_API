@@ -14,4 +14,17 @@ class Sub_categoryController extends Controller
     {
         return Sub_category::all()->find($id);
     }
+
+    public static function createOne($request)
+    {
+        $subCat = new Sub_category();
+        $subCat->setAttribute('label',$request['label']);
+        $subCat->setAttribute('category_id',$request['category_id']);
+        $subCat->save();
+    }
+
+    public static function deleteOne($id)
+    {
+        Sub_category::all()->find($id)->delete();
+    }
 }

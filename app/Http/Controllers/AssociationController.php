@@ -41,5 +41,20 @@ class AssociationController extends Controller
         return Material::all()->where('association_id',$associationID);
     }
 
+    public static function createOne($request)
+    {
+        $assoc = new Association();
+        $assoc->setAttribute('designation',$request['designation']);
+        $assoc->setAttribute('referent_name',$request['referent_name']);
+        $assoc->setAttribute('referent_forename',$request['referent_forename']);
+        $assoc->setAttribute('description',$request['description']);
+        $assoc->save();
+    }
+
+    public static function deleteOne($id)
+    {
+        Association::all()->find($id)->delete();
+    }
+
 
 }

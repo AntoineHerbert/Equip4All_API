@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Sub_categoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Sub_categoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_19_151230_create_loanings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_19_151230_create_loanings_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,8 @@
       <workItem from="1584633102712" duration="1210000" />
       <workItem from="1584974808512" duration="4714000" />
       <workItem from="1585559158315" duration="13514000" />
-      <workItem from="1585664050825" duration="4334000" />
+      <workItem from="1585664050825" duration="4423000" />
+      <workItem from="1585732978163" duration="2441000" />
     </task>
     <servers />
   </component>
@@ -202,10 +202,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="713" y="101" width="478" height="894" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585568857031" />
-    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585665595634">
+    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585735416537">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585665595634" />
+    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585735416537" />
     <state x="99" y="125" width="1722" height="856" key="DiffContextDialog" timestamp="1585569100020">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
