@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Loaning;
+use App\Material;
+use App\User;
 use Illuminate\Http\Request;
 
 class LoaningController extends Controller
@@ -39,5 +41,14 @@ class LoaningController extends Controller
         $loaning->setAttribute('referent_forename',$request['referent_forename']);
         $loaning->setAttribute('description',$request['description']);
         $loaning->save();
+    }
+
+    public static function getUser($id){
+        return User::all()->find(Loaning::all()->find($id)->get('user_id'));
+    }
+
+    public static function getMaterial($id)
+    {
+        return Material::all()->find(Loaning::all()->find($id)->get('material_id'));
     }
 }

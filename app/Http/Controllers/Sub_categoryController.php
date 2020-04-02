@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Sub_category;
 use Illuminate\Http\Request;
 
@@ -36,5 +37,10 @@ class Sub_categoryController extends Controller
         $subCat->setAttribute('referent_forename',$request['referent_forename']);
         $subCat->setAttribute('description',$request['description']);
         $subCat->save();
+    }
+
+    public static function getCategory($id)
+    {
+        return Category::all()->find(Sub_category::all()->find($id)->get('category_id'));
     }
 }
