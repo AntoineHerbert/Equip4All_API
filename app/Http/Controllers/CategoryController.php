@@ -45,4 +45,14 @@ class CategoryController extends Controller
     {
         Category::all()->find($id)->delete();
     }
+
+    public static function updateOne($request)
+    {
+        $cat = Category::all()->find($request['id']);
+        $cat->setAttribute('designation',$request['designation']);
+        $cat->setAttribute('referent_name',$request['referent_name']);
+        $cat->setAttribute('referent_forename',$request['referent_forename']);
+        $cat->setAttribute('description',$request['description']);
+        $cat->save();
+    }
 }

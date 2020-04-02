@@ -30,4 +30,14 @@ class LoaningController extends Controller
     {
         Loaning::all()->find($id)->delete();
     }
+
+    public static function updateOne($request)
+    {
+        $loaning = Loaning::all()->find($request['id']);
+        $loaning->setAttribute('designation',$request['designation']);
+        $loaning->setAttribute('referent_name',$request['referent_name']);
+        $loaning->setAttribute('referent_forename',$request['referent_forename']);
+        $loaning->setAttribute('description',$request['description']);
+        $loaning->save();
+    }
 }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b94fc634-a4ff-458d-996a-a58d96cfce65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Equip4All.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Equip4All.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssociationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AssociationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
@@ -9,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Sub_categoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Sub_categoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,13 +117,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZLjkchOSJq9cHtJfKZTwKlrlZ4" />
@@ -160,7 +164,8 @@
       <workItem from="1584974808512" duration="4714000" />
       <workItem from="1585559158315" duration="13514000" />
       <workItem from="1585664050825" duration="4423000" />
-      <workItem from="1585732978163" duration="2441000" />
+      <workItem from="1585732978163" duration="3611000" />
+      <workItem from="1585838045901" duration="9000" />
     </task>
     <servers />
   </component>
@@ -202,10 +207,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="713" y="101" width="478" height="894" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585568857031" />
-    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585735416537">
+    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585838315396">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585735416537" />
+    <state x="1173" y="310" width="526" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1585838315396" />
     <state x="99" y="125" width="1722" height="856" key="DiffContextDialog" timestamp="1585569100020">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>

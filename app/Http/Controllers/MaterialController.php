@@ -30,4 +30,14 @@ class MaterialController extends Controller
     {
         Material::all()->find($id)->delete();
     }
+
+    public static function updateOne($request)
+    {
+        $mat = Material::all()->find($request['id']);
+        $mat->setAttribute('designation',$request['designation']);
+        $mat->setAttribute('referent_name',$request['referent_name']);
+        $mat->setAttribute('referent_forename',$request['referent_forename']);
+        $mat->setAttribute('description',$request['description']);
+        $mat->save();
+    }
 }

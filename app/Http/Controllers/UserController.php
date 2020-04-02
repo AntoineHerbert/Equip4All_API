@@ -38,4 +38,14 @@ class UserController extends Controller
         User::all()->find($id)->delete();
     }
 
+    public static function updateOne($request)
+    {
+        $user = User::all()->find($request['id']);
+        $user->setAttribute('designation',$request['designation']);
+        $user->setAttribute('referent_name',$request['referent_name']);
+        $user->setAttribute('referent_forename',$request['referent_forename']);
+        $user->setAttribute('description',$request['description']);
+        $user->save();
+    }
+
 }

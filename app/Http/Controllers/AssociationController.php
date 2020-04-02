@@ -56,5 +56,15 @@ class AssociationController extends Controller
         Association::all()->find($id)->delete();
     }
 
+    public static function updateOne($request)
+    {
+        $assoc = Association::all()->find($request['id']);
+        $assoc->setAttribute('designation',$request['designation']);
+        $assoc->setAttribute('referent_name',$request['referent_name']);
+        $assoc->setAttribute('referent_forename',$request['referent_forename']);
+        $assoc->setAttribute('description',$request['description']);
+        $assoc->save();
+    }
+
 
 }

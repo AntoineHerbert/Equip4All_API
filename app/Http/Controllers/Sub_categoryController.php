@@ -27,4 +27,14 @@ class Sub_categoryController extends Controller
     {
         Sub_category::all()->find($id)->delete();
     }
+
+    public static function updateOne($request)
+    {
+        $subCat = Sub_category::all()->find($request['id']);
+        $subCat->setAttribute('designation',$request['designation']);
+        $subCat->setAttribute('referent_name',$request['referent_name']);
+        $subCat->setAttribute('referent_forename',$request['referent_forename']);
+        $subCat->setAttribute('description',$request['description']);
+        $subCat->save();
+    }
 }
